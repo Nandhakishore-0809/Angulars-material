@@ -11,6 +11,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   imports: [
@@ -24,6 +25,7 @@ import { HelloComponent } from './hello.component';
     MatCommonModule,
     MatInputModule,
     MatGridListModule,
+    BrowserAnimationsModule,
   ],
   declarations: [AppComponent, HelloComponent],
   bootstrap: [AppComponent],
